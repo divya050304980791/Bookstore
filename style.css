@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #4a90e2, #50c9ce);
+  color: white;
+}
+
+.hero input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.book-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+  width: 180px;
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.buy-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+  background: #357ab8;
+}
+
+/* Login Page */
+.login-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.login-section form {
+  display: inline-block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.login-section input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-section button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-section button:hover {
+  background: #357ab8;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
